@@ -1,0 +1,11 @@
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	 <package name="com.cleversoft.struts2.demo" extends="struts-default">
+        <action name="HelloWorld" class="com.cleversoft.struts2.demo.HelloWorld">
+            <result name="success">/HelloWorld.jsp</result>
+        </action>
+        <!-- Add your actions here -->
+    </package>
+</struts>
