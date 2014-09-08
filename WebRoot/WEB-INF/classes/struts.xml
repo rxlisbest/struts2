@@ -3,9 +3,13 @@
         "http://struts.apache.org/dtds/struts-2.0.dtd">
 <struts>
 	 <package name="com.cleversoft.struts2.demo" extends="struts-default">
-        <action name="HelloWorld" class="com.cleversoft.struts2.demo.HelloWorld">
-            <result name="success">/HelloWorld.jsp</result>
+        <action name="login" class="com.cleversoft.struts2.demo.LoginAction">
+            <result name="success">/login.jsp</result>
         </action>
         <!-- Add your actions here -->
+        <action name="logon" class="com.cleversoft.struts2.demo.LogonAction">
+        		<result name="success">/login.jsp</result>
+        		<result name="error" type="redirect">/login</result>
+        </action>
     </package>
 </struts>

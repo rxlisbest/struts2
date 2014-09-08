@@ -8,5 +8,6 @@
 </head>
 <body>
 	HelloWorld!This is my first struts2!
+	${username}
 </body>
 </html>
