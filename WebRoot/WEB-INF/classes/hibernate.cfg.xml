@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE hibernate-configuration PUBLIC
-        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
-        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<!DOCTYPE hibernate-configuration PUBLIC 
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN" 
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd"> 
 
 <hibernate-configuration>
 
@@ -28,6 +28,6 @@
         <!-- <property name="hbm2ddl.auto">create</property> -->
       
 
-	 	  <mapping resource="dbTable/User.hbm.xml"/>
+	 	  <mapping resource="Person.hbm.xml"/>
     </session-factory>
 </hibernate-configuration>

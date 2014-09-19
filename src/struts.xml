@@ -11,5 +11,10 @@
         		<result name="success">/login.jsp</result>
         		<result name="error" type="redirect">/login</result>
         </action>
-    </package>
+	  </package>
+		<package name="com.action" extends="struts-default">
+			<action name="showPerson" class="com.action.PersonAction" method="showPerson">
+				<result name="success">/showPerson.jsp</result>
+			</action>
+		</package>
 </struts>
